@@ -1,0 +1,123 @@
+<html>
+<Title>
+    Adding Headphone Inventory
+</Title>
+
+
+
+<head>
+    <!--Style Sheet -->
+
+        <link rel="stylesheet" href="./stylesheets/addUpdateStyle.css" />
+    
+    <!--Bootstrap-->
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+
+
+</head>
+
+<style>
+    .container-fluid {
+  display: block;
+  width: 15%;
+  padding: 10px 48px;
+  border: 10px black; 
+}
+</style>
+
+<body>
+
+    <h1 class="pages-text-center">Headphone Add Screen</h1>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="home-button">
+                <button class="btn btn-secondary" onclick="window.location.href='headphones.html'">Headphones Main
+                    Page</button>
+
+                <button class="btn btn-secondary" onclick="window.location.href='headphonesUpdate.html'">Headphones
+                    Update</button>
+
+                <button class="btn btn-secondary" onclick="window.location.href='headphonesView.html'">Headphones
+                    View</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <form class="form">
+        <div class="form-group">
+            <label for="id"><b>ID:</b></b></label>
+            <input name="id" id="id" type="text" class="form-control" placeholder="Input ID">
+        </div>
+    </form>
+
+    <form class="form">
+        <div class="form-group">
+            <label for="brand"><b>Brand:</b></label>
+            <input name="brand" id="brand" type="text" class="form-control" placeholder="Input Brand">
+        </div>
+
+        <form class="form">
+            <div class="form-group">
+                <label for="model_number"><b>Model Number:</b></label>
+                <input name="model_number" id="model_number" type="text" class="form-control"
+                    placeholder="Input Model Number">
+            </div>
+
+            <form class="form">
+                <div class="form-group">
+                    <label for="wireless"><b>Wireless:</b></label>
+                    <input name="wireless" id="wireless" type="text" class="form-control" placeholder="Input Wireless">
+                </div>
+
+                <form class="form">
+                    <div class="form-group">
+                        <label for="noise_cancellation"><b>Noise Cancellation:</b></label>
+                        <input name="noise_cancellation" id="noise_cancellation" type="text" class="form-control"
+                            placeholder="Noise Cancellation">
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+
+                        </button>
+                    </div>
+
+                </form>
+
+
+
+</body>
+
+<!-- CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+<!-- This is for toast messages-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src=".js/jquery.toaster.js"></script>
+
+<!-- Button Flow at the top header -->
+<div class="container-fluid">
+    <div class="row">
+    <div class="home-button">
+    <button class="btn btn-secondary" onclick="window.location.href='InventoryAdd.html'">Add Inventory</button>
+    </div>
+    </div>
+    </div>
+
+<!--Calls our API Script-->
+<script src=".js/postHeadphones.js"> </script>
+
+
+</html>
