@@ -1,0 +1,110 @@
+<html>
+<Title>
+    Updating Earbuds Inventory
+</Title>
+
+<head>
+    <!--Style Sheet -->
+
+    <link rel="stylesheet" href="./stylesheets/addUpdateStyle.css" />
+
+    <!--Bootstrap-->
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="home-button">
+                <button class="btn btn-secondary" onclick="window.location.href='earbuds.html'">Earbuds Main
+                    Page</button>
+                    <button class="btn btn-secondary" onclick="window.location.href='earbudsView.html'">View Earbuds</button>
+                        <button class="btn btn-secondary" onclick="window.location.href='earbudsAdd.html'">Add Earbuds</button>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="pages-text-center">Earbuds Update Screen</h1>
+
+    <div class="dropdown"> 
+        <button class="dropbtn">Brand</button>
+        <div class="dropdown-content">
+          <a href="brand">Brand</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
+
+    <form class="form">
+        <div class="form-group">
+            <label for="id"><b>ID:</b></b></label>
+            <input name="id" id="id" type="text" class="form-control" placeholder="Input ID">
+        </div>
+    </form>
+
+    <form class="form">
+        <div class="form-group">
+            <label for="id"><b>Brand:</b></label>
+            <input name="brand" id="brand" type="text" class="form-control" placeholder="Input Brand">
+        </div>
+
+        <form class="form">
+            <div class="form-group">
+                <label for="id"><b>Model Number:</b></label>
+                <input name="model_number" id="model_number" type="text" class="form-control"
+                    placeholder="Input Model Number">
+            </div>
+
+            <form class="form">
+                <div class="form-group">
+                    <label for="id"><b>Wireless:</b></label>
+                    <input name="wireless" id="wireless" type="text" class="form-control" placeholder="Input Wireless">
+                </div>
+
+                <form class="form">
+                    <div class="form-group">
+                        <label for="id"><b>Noise Cancellation:</b></label>
+                        <input name="noise_cancellation" id="noise_cancellation" type="text" class="form-control"
+                            placeholder="Noise Cancellation">
+                    </div>
+
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+
+                        </button>
+                    </div>
+
+                </form>
+
+
+
+</body>
+
+<!-- CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+
+<!-- This is for toast messages-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src=".js/jquery.toaster.js"></script>
+
+<!--Calls our API Script-->
+<script src=".js/postEarBuds.js"> </script>
+
+
+
+
+
+</html>
