@@ -12,5 +12,10 @@ column names in the same order, as well as viewing, adding and updating specific
 The site was developed using HTML, CSS, & JavaScript. The library that was used is Grid.js for the grid like interface to retrieve data. Visual Studio was the IDE that was used to develop the project.
 
 
-
+:id
+:brand
+:model_number
+:wireless
+:noise_cancellation
+:imagesdir: images
 
