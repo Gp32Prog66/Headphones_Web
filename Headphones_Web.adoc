@@ -21,4 +21,7 @@ image::\images\Git_Branch_Layout_Web.png[alt=webLayout,width=600px] [orientation
 ## Server Flowchart
 image::\images\Implementation_Of_Server.png[alt=serverLayout,width=600px] [orientation=portrait]
 
+## User Interface Layout
+image::\images\Headphones_And_Earbuds_UI.png[alt=userInterface,width=600px] [orientation=portrait]
+
 
