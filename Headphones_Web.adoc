@@ -1,3 +1,16 @@
 # Headphones Web
 
 ## What is the Headphones Web application all about?
+The headphones web application is the User-Interface section of the Headphones project. Each headphone entry consists of an ID, brand name, model number, if it is wireless, and if it has
+noise cancellation capability. 
+
+## What is the FrontSide of the Website consist of?
+The site consists of a home page that will allow you to view, add, and update specific different text fields of a headphone entry. There is also a section that containts earbuds with the same
+column names in the same order, as well as viewing, adding and updating specific entries. 
+
+## What coding languages were using during the development of the Website? 
+The site was developed using HTML, CSS, & JavaScript. The library that was used is Grid.js for the grid like interface to retrieve data. Visual Studio was the IDE that was used to develop the project.
+
+
+
+
