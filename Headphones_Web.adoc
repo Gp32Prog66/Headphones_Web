@@ -20,7 +20,7 @@ image::\images\Headphones_and_Earbuds_UI.png[alt=userInterface,width=600px] [ori
 image::\images\Git_Branch_Layout_Web.png[alt=webLayout,width=600px] [orientation=portrait]
 
 ## Server Flowchart
-image::\images\Implementation_Of_Server.png[alt=serverLayout,width=600px] [orientation=portrait]
+image::\images\Implementation_Of_Server_V2.png[alt=serverLayout,width=600px] [orientation=portrait]
 
 
 
