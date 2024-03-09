@@ -8,7 +8,7 @@ noise cancellation capability.
 The site consists of a home page that will allow you to view, add, and update specific different text fields of a headphone entry. There is also a section that containts earbuds with the same
 column names in the same order, as well as viewing, adding and updating specific entries. 
 
-image::\images\Headphones_MainPage.png[alt=mainpage,width=500px] [orientation=portrait]
+image::\images\Headphones_MainPage_2.png[alt=mainpage,width=500px] [orientation=portrait]
 
 ## What coding languages were using during the development of the Website? 
 The site was developed using HTML, CSS, & JavaScript. The library that was used is Grid.js for the grid like interface to retrieve data. Visual Studio was the IDE that was used to develop the project.
