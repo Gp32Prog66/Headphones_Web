@@ -14,12 +14,6 @@ image::\images\Headphones_MainPage.png[alt=mainpage,width=500px] [orientation=po
 The site was developed using HTML, CSS, & JavaScript. The library that was used is Grid.js for the grid like interface to retrieve data. Visual Studio was the IDE that was used to develop the project.
 
 
-:id
-:brand
-:model_number
-:wireless
-:noise_cancellation
-:imagesdir: images
 
 ##GitHub Branch Layout
 image::\images\Git_Branch_Layout_Web.png[alt=layout,width=600px] [orientation=portrait]
