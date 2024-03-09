@@ -14,9 +14,13 @@ image::\images\Headphones_MainPage.png[alt=mainpage,width=500px] [orientation=po
 The site was developed using HTML, CSS, & JavaScript. The library that was used is Grid.js for the grid like interface to retrieve data. Visual Studio was the IDE that was used to develop the project.
 
 ## User Interface Layout
+When loading up the interface of the website, it will default to the headphones main page. To switch over to the earbuds main page, you click on the button to switch over on the headphones main page, and vice versa. You can access the add headphones, update headphones, and view headphones page from any section of the headphone side of the interface. The same concept is also applied to the earbuds section of the page. The add and update page will send in new information to the database. When viewing the information in the view page, a GET method will be used to retrieve the data for the user to view. 
+
 image::\images\Headphones_and_Earbuds_UI.png[alt=userInterface,width=600px] [orientation=portrait]
 
 ## GitHub Branch Layout
+The Render server will retrieve all the necessary info to help display the site. Our local environment is connected to the GitHub repository and the developer will send information to the dev branch. Once you got everything ready, do a pull request. When the host reviews and approves the changes, everything will get pushed to the main branch. 
+
 image::\images\Git_Branch_Layout_Web.png[alt=webLayout,width=600px] [orientation=portrait]
 
 ## Server Flowchart
