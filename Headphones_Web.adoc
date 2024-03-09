@@ -13,7 +13,8 @@ image::\images\Headphones_MainPage.png[alt=mainpage,width=500px] [orientation=po
 ## What coding languages were using during the development of the Website? 
 The site was developed using HTML, CSS, & JavaScript. The library that was used is Grid.js for the grid like interface to retrieve data. Visual Studio was the IDE that was used to develop the project.
 
-
+## User Interface Layout
+image::\images\Headphones_And_Earbuds_UI.png[alt=userInterface,width=600px] [orientation=portrait]
 
 ## GitHub Branch Layout
 image::\images\Git_Branch_Layout_Web.png[alt=webLayout,width=600px] [orientation=portrait]
@@ -21,7 +22,6 @@ image::\images\Git_Branch_Layout_Web.png[alt=webLayout,width=600px] [orientation
 ## Server Flowchart
 image::\images\Implementation_Of_Server.png[alt=serverLayout,width=600px] [orientation=portrait]
 
-## User Interface Layout
-image::\images\Headphones_And_Earbuds_UI.png[alt=userInterface,width=600px] [orientation=portrait]
+
 
 
