@@ -15,10 +15,10 @@ The site was developed using HTML, CSS, & JavaScript. The library that was used 
 
 
 
-##GitHub Branch Layout
-image::\images\Git_Branch_Layout_Web.png[alt=layout,width=600px] [orientation=portrait]
+## GitHub Branch Layout
+image::\images\Git_Branch_Layout_Web.png[alt=webLayout,width=600px] [orientation=portrait]
 
-##Server Flowchart
-image::\images\Implementation_Of_Server.png[alt=layout,width=600px] [orientation=portrait]
+## Server Flowchart
+image::\images\Implementation_Of_Server.png[alt=serverLayout,width=600px] [orientation=portrait]
 
 
