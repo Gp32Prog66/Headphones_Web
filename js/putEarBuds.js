@@ -10,7 +10,7 @@ formEl.addEventListener('submit', event => {
     }
     else
     {
-        fetch('http://localhost:8007/api/v1/earbuds',
+        fetch('https://headphones-3zk6.onrender.com/api/v1/earbuds',
         {
             method: 'PUT',
             headers: 
@@ -25,3 +25,5 @@ formEl.addEventListener('submit', event => {
 
     }
 });
+
+  //http://localhost:8007/api/v1/earbuds

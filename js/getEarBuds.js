@@ -14,7 +14,7 @@ new gridjs.Grid({
         { name: "noise_cancellation", width: "100px" } ],
 
         server: {
-            url: "http://localhost:8007/api/v1/earbuds",
+            url: "https://headphones-3zk6.onrender.com/api/v1/earbuds",
             then: (data) =>
             {
                 data.sort((a,b) => b.id - a.id);
@@ -33,4 +33,4 @@ new gridjs.Grid({
     }).render(document.getElementById("table"));
 
     
-   
+      //http://localhost:8007/api/v1/earbuds
