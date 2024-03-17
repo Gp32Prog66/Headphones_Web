@@ -5,3 +5,6 @@
 
 ## Use Case UML Diagram
 ![](images/UseCase.drawio.png)
+
+## Database Relationship Diagram
+![](images/UMLDataBaseRelationships.drawio.png)
